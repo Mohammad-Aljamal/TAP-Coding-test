@@ -1,0 +1,235 @@
+.nav_bar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: black; 
+    cursor: pointer;
+}
+
+.nav_tabs {
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.tab {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.tab:hover {
+    color:#D1884F;
+}
+
+/* .tab:hover i {
+    color: #D1884F;
+    transition: 0.2s ease;
+} */
+
+.tab:focus {     
+    color: #D1884F;
+}
+
+.tab:valid {
+    color: var(--brown);
+}
+
+.home_section{
+    font-size: 30px;
+    padding-top: 100px;
+    margin-left: 50px;
+    color: #008AAA;
+    display: flex;
+    /* font-family: "Monaco", "Monospace"; */
+}
+
+
+.welcome{
+    color: #3BBADB;
+}
+
+.career{
+    color: #D1884F;
+}
+
+.summary{
+    color: black;
+}
+
+h6 a {
+    text-decoration: none;
+    color: #3BBADB;
+    cursor: pointer;
+}
+
+
+.buttons{
+    display: flex;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: medium;
+    display: inline-block;
+}
+
+.hire_me {
+    color:rgb(252, 252, 252);
+    background-color:#008AAA;
+    border: 0cap;
+    box-shadow: 0px 5px #008baa41;
+}
+
+.hire_me:hover {
+    box-shadow: 0px 5px #04586b57;
+}
+
+.see_project{
+    border-color: #008AAA;
+    color: #008AAA;
+    background-color: rgb(255, 255, 255);
+}
+
+.profile_img{
+    /* width: 100%; */
+    /* max-width: 400px; */
+    height: auto;
+    border-radius: 0% 0% 0% 50%;
+    box-shadow: -15px 0px #3BBADB; 
+    margin-left: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.content{
+    margin: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.profile {
+    margin: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    /* box-shadow: 0% 0% 0% 50%; */
+}
+
+/* .about_me {
+    width: 100%;
+    background-color: #3a200c;
+} */
+
+
+.about_content {
+    /* width: 100%; */
+    margin-top: 50px;
+    width: auto;
+    color: aliceblue;
+    background-color: #008AAA;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.about {
+    font-size: 25px;
+    padding: 10px;
+    line-height: 50px;
+}
+
+
+
+/* Your existing styles */
+
+/* Contact Form Styles */
+.contact_me {
+    margin-top: 160px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    width: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.submit {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+
+
+.web_logos {
+    /* height: 40px;
+    width: 40px; */
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    align-content: center;
+
+}
+
+.linkedin {
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+}
+
+.github {
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+}
